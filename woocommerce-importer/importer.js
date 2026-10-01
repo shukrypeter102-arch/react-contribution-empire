@@ -106,7 +106,7 @@ async function importProduct(client, item, index, total) {
     };
   } catch (error) {
     const errorMsg = error.response?.data?.message || error.response?.data || error.message;
-    log(`[${index}/${total}] Failed "${item.name || '(unnamed)'": ${errorMsg}`, 'error');
+    log(`[${index}/${total}] Failed "${item.name || '(unnamed)'}": ${errorMsg}`, 'error');
     return {
       ok: false,
       name: item.name || '(unnamed)',
@@ -122,11 +122,14 @@ async function main() {
     log(`Configuration: Status=${config.status}, Category=${config.categoryId}, BatchSize=${config.batchSize}`, 'debug');
 
     const filePath = path.resolve(process.cwd(), config.fileName);
-    if (!fs.existsSync) {
-      const fileContent = await fs.readFile(filePath, 'utf8');
+    
+    let fileContent;
+    try {
+      fileContent = await fs.readFile(filePath, 'utf8');
+    } catch (error) {
+      throw new Error(`Cannot read ${config.fileName}: ${error.message}`);
     }
 
-    const fileContent = await fs.readFile(filePath, 'utf8');
     const items = JSON.parse(fileContent);
 
     if (!Array.isArray(items)) {
@@ -147,7 +150,7 @@ async function main() {
 
     // Validate connection
     try {
-      await client.get('/system/status');
+      await client.get('/products', { params: { per_page: 1 } });
       log('✓ Connected to WooCommerce API', 'success');
     } catch (error) {
       throw new Error(`Cannot connect to WooCommerce API: ${error.message}`);
