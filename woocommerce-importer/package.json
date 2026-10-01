@@ -1,0 +1,13 @@
+{
+  "name": "woocommerce-cosmetic-importer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "import": "node importer.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7"
+  }
+}
