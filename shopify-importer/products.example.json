@@ -1,0 +1,13 @@
+[
+  {
+    "name": "مثال: كريم مرطب للبشرة",
+    "price": "120.00",
+    "description": "استبدل هذا الوصف بوصف تملك حق استخدامه.",
+    "short_description": "كريم مرطب للبشرة",
+    "image": "",
+    "sku": "COS-DEMO-001",
+    "vendor": "علامة مرخصة",
+    "product_type": "مستحضرات تجميل",
+    "tags": ["cosmetics", "skincare"]
+  }
+]
