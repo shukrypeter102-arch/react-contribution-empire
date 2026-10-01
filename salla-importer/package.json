@@ -1,0 +1,1 @@
+{"name":"salla-importer","version":"1.0.0","private":true,"type":"commonjs","scripts":{"import":"node importer.js","dry-run":"node importer.js --dry-run","validate":"node validator.js"},"dependencies":{"axios":"^1.7.9","dotenv":"^16.4.7"}}

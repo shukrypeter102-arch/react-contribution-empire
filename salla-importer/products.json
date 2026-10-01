@@ -1,0 +1,82 @@
+[
+  {
+    "name": "كريم مرطب للبشرة الجافة",
+    "price": "120.00",
+    "description": "كريم مرطب غني بالزيوت الطبيعية والفيتامينات، يعطي البشرة ترطيباً عميقاً وحماية طويلة الأمد. مناسب للاستخدام اليومي صباحاً ومساءً.",
+    "short_description": "كريم مرطب للبشرة الجافة - 50ml",
+    "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=500&fit=crop",
+    "sku": "COS-CREAM-001",
+    "category_id": 1,
+    "quantity": 100
+  },
+  {
+    "name": "ماء ميسيلر لتنظيف الوجه",
+    "price": "95.00",
+    "description": "ماء ميسيلر لطيف وفعال لإزالة المكياج والأوساخ دون تجفيف البشرة. يحتوي على مواد مهدئة طبيعية ومناسب لجميع أنواع البشرة حتى الحساسة.",
+    "short_description": "ماء ميسيلر - 250ml",
+    "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=500&fit=crop",
+    "sku": "COS-WATER-001",
+    "category_id": 1,
+    "quantity": 100
+  },
+  {
+    "name": "سيروم الفيتامين سي المركز",
+    "price": "150.00",
+    "description": "سيروم قوي بتركيز 20% من فيتامين سي الفعال. يساعد على توحيد لون البشرة وإضفاء لمعان طبيعي وتحسين ملمس الجلد. للاستخدام الصباحي.",
+    "short_description": "سيروم الفيتامين سي - 30ml",
+    "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=500&fit=crop",
+    "sku": "COS-SERUM-001",
+    "category_id": 1,
+    "quantity": 100
+  },
+  {
+    "name": "واقي شمس SPF 50+",
+    "price": "180.00",
+    "description": "واقي شمس عالي الحماية SPF 50+ يوفر حماية شاملة ضد أشعة UVA و UVB. مقاوم للماء لمدة 80 دقيقة ومناسب للاستخدام اليومي والأنشطة الخارجية.",
+    "short_description": "واقي شمس SPF 50+ - 75ml",
+    "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=500&fit=crop",
+    "sku": "COS-SPF-001",
+    "category_id": 1,
+    "quantity": 100
+  },
+  {
+    "name": "ماسك الطين المهدئ",
+    "price": "110.00",
+    "description": "ماسك غني بالطين الطبيعي والمعادن. يساعد على تنقية البشرة وتقليل الزيوت الزائدة وتحسين الملمس. للاستخدام مرة إلى مرتين أسبوعياً.",
+    "short_description": "ماسك الطين المهدئ - 100ml",
+    "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=500&fit=crop",
+    "sku": "COS-MASK-001",
+    "category_id": 1,
+    "quantity": 100
+  },
+  {
+    "name": "كريم العين المضاد للشيخوخة",
+    "price": "140.00",
+    "description": "كريم متخصص لمنطقة العين يحتوي على مكونات مضادة للأكسدة وببتيدات. يساعد على تقليل الهالات السوداء والتجاعيد حول العينين وتحسين مرونة البشرة.",
+    "short_description": "كريم العين المضاد للشيخوخة - 15ml",
+    "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=500&fit=crop",
+    "sku": "COS-EYE-001",
+    "category_id": 1,
+    "quantity": 100
+  },
+  {
+    "name": "تونر توازن البشرة",
+    "price": "85.00",
+    "description": "تونر منعش يساعد على موازنة درجة حموضة البشرة وإعدادها لامتصاص المنتجات اللاحقة بشكل أفضل. يحتوي على مكونات منعشة وطبيعية.",
+    "short_description": "تونر توازن البشرة - 200ml",
+    "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=500&fit=crop",
+    "sku": "COS-TONER-001",
+    "category_id": 1,
+    "quantity": 100
+  },
+  {
+    "name": "جل تنظيف لطيف للوجه",
+    "price": "75.00",
+    "description": "جل تنظيف لطيف وفعال يزيل الأوساخ والمكياج دون تجفيف البشرة. يحتوي على مواد طبيعية مهدئة ومناسب لجميع أنواع البشرة بما فيها الحساسة.",
+    "short_description": "جل تنظيف لطيف - 150ml",
+    "image": "https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=500&h=500&fit=crop",
+    "sku": "COS-GEL-001",
+    "category_id": 1,
+    "quantity": 100
+  }
+]
